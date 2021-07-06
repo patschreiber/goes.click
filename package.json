@@ -8,7 +8,11 @@
   "private": true,
   "devDependencies": {
     "@types/jest": "^26.0.23",
-    "jest": "^27.0.6"
+    "@types/webpack": "^5.28.0",
+    "jest": "^27.0.6",
+    "ts-loader": "^9.2.3",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2"
   },
   "dependencies": {
     "@types/node": "^15.12.5",
