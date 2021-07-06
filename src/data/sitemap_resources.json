@@ -1,0 +1,30 @@
+{
+  "url": "/",
+  "changefreq": "weekly",
+  "priority": 1.0
+},
+{
+  "url": "/about",
+  "changefreq": "weekly",
+  "priority": 0.5
+},
+{
+  "url": "/terms",
+  "changefreq": "weekly",
+  "priority": 0.5
+},
+{
+  "url": "/privacy-policy",
+  "changefreq": "weekly",
+  "priority": 0.5
+},
+{
+  "url": "/404",
+  "changefreq": "monthly",
+  "priority": 1.0
+},
+{
+  "url": "/down-for-maintenance",
+  "changefreq": "monthly",
+  "priority": 1.0
+}
