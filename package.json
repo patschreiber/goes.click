@@ -1,0 +1,31 @@
+{
+  "name": "static_webpage",
+  "version": "1.0.0",
+  "description": "Nu-uh honey",
+  "main": "index.js",
+  "author": "Patrick Schreiber",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.6"
+  },
+  "dependencies": {
+    "@types/node": "^15.12.5",
+    "sitemap": "^7.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  },
+  "scripts": {
+    "build": "tsx",
+    "test-all": "jest --all --notify",
+    "test-new": "jest -o --notify",
+    "generate-licenses": "yarn licenses generate-disclaimer >> ./dist/LICENSES.txt"
+  },
+  "directories": {
+    "test": "./tests/",
+    "bin": "./dist/",
+    "lib": "./src/"
+  },
+  "readme": "./README.md"
+}
