@@ -12,7 +12,7 @@ const config: Config.InitialOptions = {
     "node_modules"
   ],
   moduleFileExtensions: [
-    ["js", "jsx", "ts", "tsx", "json", "node"]
+    "js", "jsx", "ts", "tsx", "json", "node"
   ],
   notify: true,
   notifyMode: "failure-change",
